@@ -17,6 +17,7 @@ class personagem {
             this.atack = "shuriken"
         }
         console.log(`O ${this.type} atacou usando ${this.atack}`)
+        console.log(`Aqui está o nome "${this.name}" e a idade "${this.age}"\n`) //Br para separar as info de cada personagem
     }
 }
 
